@@ -43,6 +43,7 @@ ENV LANG="en_US.UTF-8" \
 
 # system requirements to build most of the recipes
 RUN apt install -qq --yes --no-install-recommends \
+    aidl \
     autoconf \
     automake \
     build-essential \
